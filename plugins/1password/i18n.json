@@ -1,0 +1,62 @@
+{
+  "zh-CN": {
+    "displayName": "1Password",
+    "description": "通过本机 1Password CLI（op）安全查询保险库、条目摘要、密钥引用与一次性验证码。"
+  },
+  "zh-TW": {
+    "displayName": "1Password",
+    "description": "透過本機 1Password CLI（op）安全查詢保險庫、項目摘要、密鑰參照與一次性驗證碼。"
+  },
+  "ru": {
+    "displayName": "1Password",
+    "description": "Безопасно читает сейфы, метаданные записей, ссылки на секреты и одноразовые коды через локальный 1Password CLI (op)."
+  },
+  "ar": {
+    "displayName": "1Password",
+    "description": "يقرأ الخزائن وبيانات العناصر ومراجع الأسرار ورموز التحقق المؤقتة عبر أداة 1Password CLI (op) المحلية."
+  },
+  "fa": {
+    "displayName": "1Password",
+    "description": "خزانه‌ها، فراداده موارد، ارجاع‌های محرمانه و کدهای یک‌بارمصرف را از طریق ابزار محلی 1Password CLI (op) می‌خواند."
+  },
+  "ko": {
+    "displayName": "1Password",
+    "description": "로컬 1Password CLI(op)를 통해 금고, 항목 메타데이터, 비밀 참조 및 일회용 코드를 안전하게 조회합니다."
+  },
+  "es": {
+    "displayName": "1Password",
+    "description": "Consulta bóvedas, metadatos de elementos, referencias secretas y códigos de un solo uso mediante 1Password CLI (op) local."
+  },
+  "my": {
+    "displayName": "1Password",
+    "description": "ဒေသခံ 1Password CLI (op) မှတစ်ဆင့် vault များ၊ အချက်အလက်အကျဉ်းချုပ်များ၊ လျှို့ဝှက်အညွှန်းများနှင့် တစ်ခါသုံးကုဒ်များကို ဖတ်ရှုသည်။"
+  },
+  "be": {
+    "displayName": "1Password",
+    "description": "Бяспечна чытае сховішчы, метаданыя запісаў, спасылкі на сакрэты і аднаразовыя коды праз лакальны 1Password CLI (op)."
+  },
+  "ps": {
+    "displayName": "1Password",
+    "description": "د سیمه‌ییز 1Password CLI (op) له لارې خوندي خونې، د توکو لنډیز، پټې حوالې او یو ځل کوډونه لولي."
+  },
+  "prs": {
+    "displayName": "1Password",
+    "description": "خزانه‌ها، فراداده موارد، ارجاع‌های محرمانه و کدهای یک‌بارمصرف را از طریق 1Password CLI (op) محلی می‌خواند."
+  },
+  "am": {
+    "displayName": "1Password",
+    "description": "በአካባቢያዊው 1Password CLI (op) አማካኝነት ቮልቶችን፣ የንጥል ዝርዝሮችን፣ የምስጢር ማጣቀሻዎችን እና የአንድ ጊዜ ኮዶችን ያነባል።"
+  },
+  "so": {
+    "displayName": "1Password",
+    "description": "Wuxuu si ammaan ah u akhriyaa qasnadaha, xogta kooban, tixraacyada sirta ah iyo koodhadhka hal-mar la adeegsado isagoo adeegsanaya 1Password CLI (op)."
+  },
+  "ti": {
+    "displayName": "1Password",
+    "description": "ብናይ ከባቢ 1Password CLI (op) ኣቢሉ ካዝናታት፣ ሓበሬታ ንጥላት፣ ምስጢራዊ መወከሲታትን ሓንሳእ ዝጥቀሙ ኮዳትን የንብብ።"
+  },
+  "fr": {
+    "displayName": "1Password",
+    "description": "Lit les coffres, métadonnées d'éléments, références de secrets et codes à usage unique via l'outil local 1Password CLI (op)."
+  }
+}

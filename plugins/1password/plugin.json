@@ -1,0 +1,58 @@
+{
+  "name": "1password",
+  "displayName": "1Password",
+  "version": "0.1.0",
+  "description": "Connects to 1Password via the official desktop MCP server (1password-mcp) or 1Password CLI (op).",
+  "icon": "icon.svg",
+  "engines": {
+    "cage": ">=0.2.0"
+  },
+  "kind": "host",
+  "platforms": [
+    "darwin",
+    "linux",
+    "windows"
+  ],
+  "permissions": [
+    "commands",
+    "network"
+  ],
+  "categories": [
+    "productivity",
+    "developer"
+  ],
+  "contributes": {
+    "mcpServers": [
+      {
+        "id": "onepassword",
+        "command": [
+          "python3",
+          "launcher.py"
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "id": "mode",
+        "title": "Backend Mode",
+        "description": "Use 1Password Desktop's built-in 1password-mcp (Environments & .env) or op-cli (vaults, items, op:// secrets, TOTP).",
+        "type": "choice",
+        "choices": [
+          "official-mcp",
+          "op-cli"
+        ],
+        "default": "official-mcp",
+        "env": "OP_PLUGIN_MODE",
+        "required": false
+      },
+      {
+        "id": "account",
+        "title": "1Password Account (op-cli mode)",
+        "description": "Optional account shorthand, sign-in address, or UUID when using op-cli mode.",
+        "type": "string",
+        "env": "OP_ACCOUNT",
+        "required": false
+      }
+    ]
+  }
+}
