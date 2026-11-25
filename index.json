@@ -125,8 +125,8 @@
       "runtime": "python3",
       "icon": "https://raw.githubusercontent.com/Lee-xeo/cage-plugins/main/plugins/1password/icon.svg",
       "archive": "https://raw.githubusercontent.com/Lee-xeo/cage-plugins/main/dist/1password-0.1.0.tar.gz",
-      "sha256": "180ca4e73e3ce4951d8eb5d5463319af7c5e7921b0f3e992fc05aae1b09eb381",
-      "bytes": 5731
+      "sha256": "cef129fb86d3ba96672ce409014b02c845e963f94708e0e6a5e4b6217f771bec",
+      "bytes": 5866
     },
     {
       "name": "agent-mesh",
